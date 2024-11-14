@@ -1,100 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colégio Anita Grandi Salmon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Portfólio Mágico</title>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola</li>
-            <li class="cabecalho-lista-item">Estudante</li>
-        </ul>
+    <header class="container text-center">
+        <img src="d31f6d49168bc1ae0a9ab30ff72c7e6f_1722907902502_0.webp.webp" alt="avatar da Cibelle" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Cibelle_</p>
+        <h1>Estudante de Feitiços e Encantamentos </h1>
+        <p>Sou uma estudante dedicada da Corvinal, apaixonada por conhecimento mágico e a arte dos feitiços. Adoro explorar novas magias e compartilhar o que aprendo. Veja alguns dos encantamentos e poções que já desenvolvi!</p> !</p>
+        <p>Minhas habilidades mágicas</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
     </header>
-    <section class="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo">Sobre a Escola</h2>
-            <p class="escola-texto-um">O Colégio Anita Grandi Salmon foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através do ensino de  Programação.</p>
-            <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série Integral. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
+                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
+                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
+                            Artificial</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
+                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
+                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
+                            futuro da IA.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
+                        </h5>
+                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img class="escola-imagem" src="images.jpeg" alt="imagem que representa uma professora em sala de aula">
-    </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-        <div class="estudante-todos">
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-04 at 11.36.16.jpeg" alt="foto do Bryan">
-            <h3 class="estudante-nome">Bryan</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
+                        livros favoritos. O objetivo é criar um ambiente virtual onde seja possível compartilhar
+                        seus livros preferidos, fornecendo uma descrição breve de cada um, incluindo o autor, o ano
+                        de publicação e uma opção de compra.</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                    <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
         </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-04 at 10.39.04.jpeg" alt="foto da Cibelle">
-            <h3 class="estudante-nome">Cibelle</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-11 at 10.26.57.jpeg" alt="foto do Gustavo">
-            <h3 class="estudante-nome">Gustavo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="6082da3f-d967-4ae9-8f48-acd220718780.jpeg" alt="foto da Ingrid">
-            <h3 class="estudante-nome">Ingrid</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-11 at 10.23.53.jpeg" alt="foto da Isabele">
-            <h3 class="estudante-nome">Isabele</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-04 at 10.20.03.jpeg" alt="foto da Isabelly">
-            <h3 class="estudante-nome">Isabelly</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-05-09 at 10.59.18.jpeg" alt="foto do Leonardo">
-            <h3 class="estudante-nome">Leonardo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-11 at 10.55.37.jpeg" alt="foto do Luan">
-            <h3 class="estudante-nome">Luan</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="WhatsApp Image 2024-04-04 at 10.20.30.jpeg" alt="foto do Maria Clara">
-            <h3 class="estudante-nome">Maria Clara</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        
     </div>
-    </section>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
